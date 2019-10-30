@@ -1,0 +1,68 @@
+/* Colors and Fonts */
+
+body{
+	background-color:#ABD4E6;
+}
+h1, h2, h3{
+font-family: 'Roboto', sans-serif;
+}
+h1 {
+color:black;
+font-size: 50px;
+text-align: center;
+}
+h2{
+	color: black;
+	font-size: 25px;
+	text-align: center;
+}
+h3{
+	font-weight: lighter;
+	color:rgb(44, 94, 219);
+	font-family: 'Roboto', sans-serif;
+}
+a{
+	color: blue;
+	font-weight: bold;
+}
+a:hover{
+color: green;
+}
+
+
+/* Custom designs*/
+
+.card-white{
+	background-color: white;
+	padding: 20px;
+	box-shadow: 15px 15px 15px rgba(0,0,0,0.1); 
+	border-radius: 4px;
+	margin: 20px auto;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.container{
+ 	width: 700px;
+ 	margin: 30px auto; 
+
+
+@media(max-width: 760px) {
+	.container{
+		width: 600px auto;	
+	}
+}
+
+@media(max-width: 500px) {
+	.container{
+		width: 400px auto;	
+	}
+}
+
+
+
+
+
+
+
+
